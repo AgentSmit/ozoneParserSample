@@ -2,7 +2,6 @@ import time
 import asyncio
 from pyppeteer.launcher import launch
 from pyppeteer.element_handle import ElementHandle
-from pyppeteer.frame_manager import Frame
 from bs4 import BeautifulSoup as bs
 
 url:str = "https://www.ozon.ru/category/vibratory-i-vibromassazhery-9051/"
